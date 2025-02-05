@@ -1,5 +1,102 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  background-image: var(--background-image);
+background-position: center;
+  background-attachment: fixed;
+  
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+}
+
+.header {
+display: grid;
+grid-template-columns: 1;
+grid-template-rows: 4;
+color: var(--color);
+width: 375px;
+min-height: 668px;
+background-color: antiquewhite;
+}
+
+.rec-empty {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  box-shadow:0px 0px 4px 2px var(--accent-color);
+  background-color: var(--accent-color);
+  justify-self: end;
+}
+
+.rec-empty::after{
+  content: "REC";
+  color: var(--accent-color);
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+rec-empty::after{
+  width: 25px;
+  height: 25px;
+  border: 1px 1px 0 0;
+  border-color: var(--accent-color);
+  background-color: aquamarine;
+}
+
+.header__theme-menu-list{
+ justify-self: end;
+ gap:10px;
+ display: grid;
+ gap: 10px;
+ margin-inline-end: 10px;
+
+}
+.header__theme-menu-item{
+  gap:10px;
+  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 18px;
+  font-family: IBM Plex Mono, serif;
+}
+.header__theme-menu-button{
+  text-decoration: none;
+  background-color: transparent;
+  border: transparent;
+  text-transform: lowercase;  
+}
+.header__theme-menu-button:hover{
+  border: 1px solid #FF007066;
+}
+.header__theme-menu-button:focus-visible{
+  text-decoration: underline var(--accent-color) 1px;
+  text-underline-offset: 3px;
+  outline: none;
+}
+.header__theme-menu-button:focus{
+  outline: none;
+}
+.header__theme-menu-button_active{
+border: var(--accent-color) 1px solid;
+}
+
+.header_title{
+  font-family: IBM Plex Mono, serif;
+  font-weight: 700px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  color: var(--header-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  margin-inline-start: 10px;
+
+}
+.header_main_text{
+  color: var(text-color);
+  font-weight: 700;
+  font-size: 18px;
+  font-family: IBM Plex Mono, serif;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+.title-decor{
+background-color: var(--accent-color);
 }
