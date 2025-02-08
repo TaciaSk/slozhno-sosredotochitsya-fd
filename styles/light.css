@@ -43,7 +43,7 @@
 
 @media (prefers-color-scheme: light) {
 
-  :root{
+  :root {
 
   --header-color: #FFC2E6;
   --accent-color: #FF8DCB;
@@ -66,6 +66,6 @@
   .theme-light .page .rec {
     display:none;
   }
-  
+
 }
 
