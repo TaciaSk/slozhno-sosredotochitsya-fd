@@ -10,4 +10,9 @@
   --background-image: url(/images/cover-image-dark.png);
   --font-family: 'IBM Plex mono', "Arial", sans-serif;
   --background-color:#000028;
+  --font-size-com: 18px;
+  --font-weight-min: 400;
+  --font-weight-max: 700;
+  --indent-com:10px;
+  --button-hover-col:#FF007066;
   }
