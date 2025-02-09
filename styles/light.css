@@ -9,6 +9,11 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
+
+
+
+  
+
 :root.theme-light {
   --header-color: #ffc2e6;
   --accent-color: #ff8dcb;
