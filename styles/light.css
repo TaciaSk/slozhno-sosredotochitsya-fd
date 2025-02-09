@@ -12,12 +12,13 @@
 
   --header-color: #ffc2e6;
   --accent-color: #353430;
+  --accent-color-40: #32312D66;
   --shadow-color: #ff8dcb;
   --text-color: #353430;
   --main-text-color: #353430;
   --button-hover-col: #32312d66;
   --background-color: #fff1f7;
-  --background-image: url(/images/cover-image-light.png);
+  --background-image: url("../images/cover-image-light.png");
   --font-family: "IBM Plex mono", "Arial", sans-serif;
   --font-size-com: 18px;
   --font-weight-min: 400;
@@ -46,12 +47,13 @@
   :root {
     --header-color: #ffc2e6;
     --accent-color: #ff8dcb;
+    --accent-color-40: #32312D66;
     --shadow-color: #ff8dcb;
     --text-color: #353430;
     --main-text-color: #353430;
     --button-hover-col: #32312d66;
     --background-color: #fff1f7;
-    --background-image: url(/images/cover-image-light.png);
+    --background-image: url("../images/cover-image-light.png");
     --font-family: "IBM Plex mono", "Arial", sans-serif;
     --font-size-com: 18px;
     --font-weight-min: 400;

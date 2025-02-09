@@ -11,12 +11,13 @@
   */
   --header-color: #db00ff;
   --accent-color: #ff0070;
+  --accent-color-40: #ff007040;
   --shadow-color: #ff0070;
   --text-color: #000028;
   --main-text-color: #f1b2ce;
   --button-hover-col: #ff007066;
   --background-color: #000028;
-  --background-image: url(/images/cover-image-dark.png);
+  --background-image: url("../images/cover-image-dark.png");
   --font-family: "IBM Plex mono", "Arial", sans-serif;
   --font-size-com: 18px;
   --font-weight-min: 400;
@@ -31,12 +32,13 @@
 .theme-dark .page {
   --header-color: #db00ff;
   --accent-color: #ff0070;
+  --accent-color-40: #ff007040;
   --shadow-color: #ff0070;
   --text-color: #000028;
   --main-text-color: #f1b2ce;
   --button-hover-col: #ff007066;
   --background-color: #000028;
-  --background-image: url(/images/cover-image-dark.png);
+  --background-image: url("../images/cover-image-dark.png");
   --font-family: "IBM Plex mono", "Arial", sans-serif;
   --font-size-com: 18px;
   --font-weight-min: 400;
@@ -51,12 +53,13 @@
   :root {
     --header-color: #db00ff;
     --accent-color: #ff0070;
+    --accent-color-40: #ff007040;
     --shadow-color: #ff0070;
     --text-color: #000028;
     --main-text-color: #f1b2ce;
     --button-hover-col: #ff007066;
     --background-color: #000028;
-    --background-image: url(/images/cover-image-dark.png);
+    --background-image: url("../images/cover-image-dark.png");
     --font-family: "IBM Plex mono", "Arial", sans-serif;
     --font-size-com: 18px;
     --font-weight-min: 400;
