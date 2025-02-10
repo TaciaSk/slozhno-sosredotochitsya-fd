@@ -9,11 +9,6 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-
-
-
-  
-
 :root.theme-light {
   --header-color: #ffc2e6;
   --accent-color: #ff8dcb;
@@ -26,7 +21,9 @@
 
   --background-color: #fff1f7;
   --background-image: url("../images/cover-image-light.png");
+
 }
+
 
 /* Вам также нужно будет написать ряд подобных селекторов */
 
@@ -45,7 +42,10 @@
     --background-image: url("../images/cover-image-light.png");
   }
 
-  .theme-light .page .rec {
+  .rec {
     display: none;
   }
+
 }
+
+
