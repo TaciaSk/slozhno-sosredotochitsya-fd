@@ -59,16 +59,16 @@
   position: absolute;
   top: var(--indent-com, 10px);
   right: var(--indent-com, 10px);
-  border-inline-end: 1px solid var(--accent-color);
-  border-block-start: 1px solid var(--accent-color);
+  border-inline-end: 1px solid var(--subtitle-color);
+  border-block-start: 1px solid var(--subtitle-color);
 }
 
 .decorated-zone::after {
   position: absolute;
   bottom: var(--indent-com, 10px);
   left: var(--indent-com, 10px);
-  border-inline-start: 1px solid var(--accent-color);
-  border-block-end: 1px solid var(--accent-color);
+  border-inline-start: 1px solid var(--subtitle-color);
+  border-block-end: 1px solid var(--subtitle-color);
 }
 
 .header__theme-menu {
@@ -88,7 +88,7 @@
 }
 
 .header__theme-menu-item {
-  color: var(--accent-color);
+  color: var(--subtitle-color);
   font-family: var(--font-family);
   font-weight: var(--font-weight-min, 400);
   font-size: var(--font-size-com, 18px);
