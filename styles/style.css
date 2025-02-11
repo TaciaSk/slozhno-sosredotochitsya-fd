@@ -186,6 +186,11 @@
   font-size: var(--font-size-com, 18px);
 }
 
+.section-block {
+  display: grid;
+  row-gap: 20px;
+}
+
 .main-section-block {
   display: flex;
   flex-direction: column;
@@ -300,9 +305,7 @@
   }
 
   .section-block {
-    display: grid;
     grid-column: 2;
-    gap: 20px;
   }
 
   .section-why {
